@@ -1,0 +1,231 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#D9C3A0" stroke-width="0.75" stroke-opacity="0.3"/>
+    </pattern>
+    <linearGradient id="parkGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4E6E4B"/>
+      <stop offset="100%" stop-color="#344D32"/>
+    </linearGradient>
+    <linearGradient id="commercialGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C7674B"/>
+      <stop offset="100%" stop-color="#9C442A"/>
+    </linearGradient>
+    <linearGradient id="residentialGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#EFE4D2"/>
+      <stop offset="100%" stop-color="#DEC9AE"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Blueprint Background Canvas -->
+  <rect width="1400" height="900" fill="#FAF6EE"/>
+  <rect width="1400" height="900" fill="url(#grid)"/>
+
+  <!-- Scheme Perimeter Boundary Border -->
+  <rect x="80" y="80" width="1240" height="740" rx="12" fill="none" stroke="#1F1B16" stroke-width="4" stroke-dasharray="16 8"/>
+
+  <!-- Main 100ft Grand Entrance Avenue (Running West to East across bottom) -->
+  <rect x="80" y="700" width="1240" height="80" fill="#3D352B"/>
+  <line x1="80" y1="740" x2="1320" y2="740" stroke="#B8892D" stroke-width="3" stroke-dasharray="24 16"/>
+  <text x="700" y="747" font-family="sans-serif" font-size="14" font-weight="bold" fill="#FAF6EE" text-anchor="middle" letter-spacing="4">MAIN ENTRANCE BOULEVARD (100 FT DUAL CARRIAGEWAY)</text>
+
+  <!-- North-South 80ft Boulevard -->
+  <rect x="660" y="80" width="80" height="620" fill="#3D352B"/>
+  <line x1="700" y1="80" x2="700" y2="700" stroke="#B8892D" stroke-width="3" stroke-dasharray="24 16"/>
+
+  <!-- Central Stupa Roundabout (Intersection) -->
+  <circle cx="700" cy="460" r="70" fill="#2C251D" stroke="#B8892D" stroke-width="4"/>
+  <circle cx="700" cy="460" r="45" fill="#FAF6EE" stroke="#3D352B" stroke-width="2"/>
+  <text x="700" y="465" font-family="serif" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">GANDHARA</text>
+  <text x="700" y="478" font-family="serif" font-size="9" fill="#B5573B" text-anchor="middle">ROUNDABOUT</text>
+
+  <!-- ==================== SECTOR / BLOCK A (Top Left) ==================== -->
+  <g id="block-a">
+    <rect x="120" y="120" width="500" height="300" rx="6" fill="url(#residentialGrad)" stroke="#B89E78" stroke-width="2"/>
+    <text x="370" y="150" font-family="serif" font-size="18" font-weight="bold" fill="#1F1B16" text-anchor="middle">BLOCK A (1 KANAL &amp; 10 MARLA LUXURY ESTATES)</text>
+
+    <!-- Plot Row 1 (1 Kanal) -->
+    <rect x="140" y="170" width="105" height="110" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="192" y="220" font-family="monospace" font-size="13" font-weight="bold" fill="#1F1B16" text-anchor="middle">A-01</text>
+    <text x="192" y="240" font-family="sans-serif" font-size="10" fill="#3F5A3C" text-anchor="middle">1 Kanal (Avail)</text>
+
+    <rect x="260" y="170" width="105" height="110" rx="3" fill="#E8DEC8" stroke="#8F785C" stroke-width="1.5"/>
+    <text x="312" y="220" font-family="monospace" font-size="13" font-weight="bold" fill="#1F1B16" text-anchor="middle">A-02</text>
+    <text x="312" y="240" font-family="sans-serif" font-size="10" fill="#B5573B" text-anchor="middle">1 Kanal (Booked)</text>
+
+    <rect x="380" y="170" width="105" height="110" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="432" y="220" font-family="monospace" font-size="13" font-weight="bold" fill="#1F1B16" text-anchor="middle">A-03</text>
+    <text x="432" y="240" font-family="sans-serif" font-size="10" fill="#3F5A3C" text-anchor="middle">10 Marla (Park)</text>
+
+    <rect x="500" y="170" width="100" height="110" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="550" y="220" font-family="monospace" font-size="13" font-weight="bold" fill="#1F1B16" text-anchor="middle">A-04</text>
+    <text x="550" y="240" font-family="sans-serif" font-size="10" fill="#3F5A3C" text-anchor="middle">10 Marla (Avail)</text>
+
+    <!-- Internal 40ft Street -->
+    <rect x="140" y="295" width="460" height="30" fill="#D9C3A0" opacity="0.6"/>
+    <text x="370" y="315" font-family="sans-serif" font-size="10" fill="#1F1B16" text-anchor="middle">40 FT INTERNAL RESIDENTIAL STREET</text>
+
+    <!-- Plot Row 2 -->
+    <rect x="140" y="340" width="105" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="192" y="375" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">A-05 (10M)</text>
+
+    <rect x="260" y="340" width="105" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="312" y="375" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">A-06 (10M)</text>
+
+    <rect x="380" y="340" width="105" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="432" y="375" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">A-07 (10M)</text>
+
+    <rect x="500" y="340" width="100" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="550" y="375" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">A-08 (10M)</text>
+  </g>
+
+  <!-- ==================== CENTRAL PARK & JAMIA MOSQUE (Middle Left) ==================== -->
+  <g id="amenities-sector">
+    <!-- Central Park -->
+    <rect x="120" y="440" width="310" height="230" rx="8" fill="url(#parkGrad)" stroke="#2F442C" stroke-width="3"/>
+    <circle cx="275" cy="530" r="35" fill="#42788D" stroke="#FAF6EE" stroke-width="2"/>
+    <text x="275" y="534" font-family="sans-serif" font-size="10" font-weight="bold" fill="#FAF6EE" text-anchor="middle">LAKE &amp; FOUNTAINS</text>
+    <text x="275" y="600" font-family="serif" font-size="15" font-weight="bold" fill="#FAF6EE" text-anchor="middle">GANDHARA CENTRAL PARK</text>
+    <text x="275" y="620" font-family="sans-serif" font-size="10" fill="#D9C3A0" text-anchor="middle">Jogging Track &amp; Botanical Flora</text>
+
+    <!-- Jamia Mosque -->
+    <rect x="450" y="440" width="170" height="230" rx="8" fill="#FAF1D9" stroke="#B8892D" stroke-width="2.5"/>
+    <!-- Dome -->
+    <circle cx="535" cy="510" r="32" fill="#B8892D" stroke="#1F1B16" stroke-width="2"/>
+    <circle cx="535" cy="510" r="8" fill="#FAF6EE"/>
+    <text x="535" y="575" font-family="serif" font-size="14" font-weight="bold" fill="#1F1B16" text-anchor="middle">GRAND JAMIA</text>
+    <text x="535" y="595" font-family="serif" font-size="14" font-weight="bold" fill="#1F1B16" text-anchor="middle">MOSQUE</text>
+    <text x="535" y="620" font-family="sans-serif" font-size="10" fill="#8F6A1E" text-anchor="middle">Heritage Courtyard</text>
+  </g>
+
+  <!-- ==================== SECTOR / BLOCK B (Top Right) ==================== -->
+  <g id="block-b">
+    <rect x="780" y="120" width="500" height="260" rx="6" fill="url(#residentialGrad)" stroke="#B89E78" stroke-width="2"/>
+    <text x="1030" y="150" font-family="serif" font-size="18" font-weight="bold" fill="#1F1B16" text-anchor="middle">BLOCK B (7 MARLA HOMES)</text>
+
+    <rect x="805" y="170" width="85" height="85" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="847" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#1F1B16" text-anchor="middle">B-11</text>
+    <text x="847" y="230" font-family="sans-serif" font-size="9" fill="#3F5A3C" text-anchor="middle">7M (Avail)</text>
+
+    <rect x="900" y="170" width="85" height="85" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="942" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#1F1B16" text-anchor="middle">B-12</text>
+    <text x="942" y="230" font-family="sans-serif" font-size="9" fill="#3F5A3C" text-anchor="middle">7M (Corner)</text>
+
+    <rect x="995" y="170" width="85" height="85" rx="3" fill="#E8DEC8" stroke="#8F785C" stroke-width="1.5"/>
+    <text x="1037" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#1F1B16" text-anchor="middle">B-13</text>
+    <text x="1037" y="230" font-family="sans-serif" font-size="9" fill="#B5573B" text-anchor="middle">7M (Booked)</text>
+
+    <rect x="1090" y="170" width="85" height="85" rx="3" fill="#D3C7B5" stroke="#685641" stroke-width="1.5"/>
+    <text x="1132" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#1F1B16" text-anchor="middle">B-14</text>
+    <text x="1132" y="230" font-family="sans-serif" font-size="9" fill="#685641" text-anchor="middle">7M (Sold)</text>
+
+    <rect x="1185" y="170" width="75" height="85" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1222" y="210" font-family="monospace" font-size="12" font-weight="bold" fill="#1F1B16" text-anchor="middle">B-15</text>
+    <text x="1222" y="230" font-family="sans-serif" font-size="9" fill="#3F5A3C" text-anchor="middle">7M (Avail)</text>
+
+    <!-- 35ft Street -->
+    <rect x="805" y="270" width="455" height="24" fill="#D9C3A0" opacity="0.6"/>
+    <text x="1030" y="286" font-family="sans-serif" font-size="9" fill="#1F1B16" text-anchor="middle">35 FT RESIDENTIAL ACCESS STREET</text>
+
+    <rect x="805" y="305" width="85" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="847" y="340" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">B-16 (7M)</text>
+
+    <rect x="900" y="305" width="85" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="942" y="340" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">B-17 (7M)</text>
+
+    <rect x="995" y="305" width="85" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1037" y="340" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">B-18 (7M)</text>
+
+    <rect x="1090" y="305" width="85" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1132" y="340" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">B-19 (7M)</text>
+
+    <rect x="1185" y="305" width="75" height="60" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1222" y="340" font-family="monospace" font-size="11" fill="#1F1B16" text-anchor="middle">B-20 (7M)</text>
+  </g>
+
+  <!-- ==================== SECTOR / BLOCK C (Middle Right) ==================== -->
+  <g id="block-c">
+    <rect x="780" y="400" width="500" height="270" rx="6" fill="url(#residentialGrad)" stroke="#B89E78" stroke-width="2"/>
+    <text x="1030" y="430" font-family="serif" font-size="18" font-weight="bold" fill="#1F1B16" text-anchor="middle">BLOCK C (5 MARLA AFFORDABLE HOMES)</text>
+
+    <rect x="805" y="450" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="840" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-01</text>
+    <text x="840" y="505" font-family="sans-serif" font-size="8" fill="#3F5A3C" text-anchor="middle">5M (Avail)</text>
+
+    <rect x="885" y="450" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="920" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-02</text>
+    <text x="920" y="505" font-family="sans-serif" font-size="8" fill="#3F5A3C" text-anchor="middle">5M (Avail)</text>
+
+    <rect x="965" y="450" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1000" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-05</text>
+    <text x="1000" y="505" font-family="sans-serif" font-size="8" fill="#3F5A3C" text-anchor="middle">5M (Avail)</text>
+
+    <rect x="1045" y="450" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1080" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-06</text>
+    <text x="1080" y="505" font-family="sans-serif" font-size="8" fill="#3F5A3C" text-anchor="middle">5M (Park)</text>
+
+    <rect x="1125" y="450" width="70" height="75" rx="3" fill="#E8DEC8" stroke="#8F785C" stroke-width="1.5"/>
+    <text x="1160" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-07</text>
+    <text x="1160" y="505" font-family="sans-serif" font-size="8" fill="#B5573B" text-anchor="middle">5M (Booked)</text>
+
+    <rect x="1205" y="450" width="60" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1235" y="485" font-family="monospace" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">C-08</text>
+    <text x="1235" y="505" font-family="sans-serif" font-size="8" fill="#3F5A3C" text-anchor="middle">5M (Avail)</text>
+
+    <!-- Street -->
+    <rect x="805" y="540" width="460" height="22" fill="#D9C3A0" opacity="0.6"/>
+
+    <rect x="805" y="575" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="840" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-09</text>
+
+    <rect x="885" y="575" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="920" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-10</text>
+
+    <rect x="965" y="575" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1000" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-11</text>
+
+    <rect x="1045" y="575" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1080" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-12</text>
+
+    <rect x="1125" y="575" width="70" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1160" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-13</text>
+
+    <rect x="1205" y="575" width="60" height="75" rx="3" fill="#FFFBF5" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="1235" y="615" font-family="monospace" font-size="10" fill="#1F1B16" text-anchor="middle">C-14</text>
+  </g>
+
+  <!-- ==================== COMMERCIAL BOULEVARD (Bottom Row Fronting Main Rd) ==================== -->
+  <g id="commercial-boulevard">
+    <rect x="120" y="790" width="1200" height="25" fill="#B5573B" opacity="0.15"/>
+
+    <rect x="140" y="710" width="140" height="60" rx="4" fill="url(#commercialGrad)" stroke="#FAF6EE" stroke-width="1.5"/>
+    <text x="210" y="738" font-family="monospace" font-size="12" font-weight="bold" fill="#FAF6EE" text-anchor="middle">COM-01</text>
+    <text x="210" y="756" font-family="sans-serif" font-size="10" fill="#FAF6EE" text-anchor="middle">4 Marla Commercial</text>
+
+    <rect x="300" y="710" width="140" height="60" rx="4" fill="url(#commercialGrad)" stroke="#FAF6EE" stroke-width="1.5"/>
+    <text x="370" y="738" font-family="monospace" font-size="12" font-weight="bold" fill="#FAF6EE" text-anchor="middle">COM-02</text>
+    <text x="370" y="756" font-family="sans-serif" font-size="10" fill="#FAF6EE" text-anchor="middle">4 Marla Commercial</text>
+
+    <rect x="960" y="710" width="140" height="60" rx="4" fill="url(#commercialGrad)" stroke="#FAF6EE" stroke-width="1.5"/>
+    <text x="1030" y="738" font-family="monospace" font-size="12" font-weight="bold" fill="#FAF6EE" text-anchor="middle">COM-03</text>
+    <text x="1030" y="756" font-family="sans-serif" font-size="10" fill="#FAF6EE" text-anchor="middle">4 Marla Commercial</text>
+
+    <rect x="1120" y="710" width="140" height="60" rx="4" fill="url(#commercialGrad)" stroke="#FAF6EE" stroke-width="1.5"/>
+    <text x="1190" y="738" font-family="monospace" font-size="12" font-weight="bold" fill="#FAF6EE" text-anchor="middle">COM-04</text>
+    <text x="1190" y="756" font-family="sans-serif" font-size="10" fill="#FAF6EE" text-anchor="middle">Corporate Center</text>
+  </g>
+
+  <!-- ==================== TITLE BLOCK & LEGEND ==================== -->
+  <g transform="translate(100, 20)">
+    <rect x="0" y="0" width="600" height="50" rx="4" fill="#1F1B16" stroke="#B8892D" stroke-width="1.5"/>
+    <text x="20" y="32" font-family="serif" font-size="18" font-weight="bold" fill="#F7F1E5" letter-spacing="2">TAXILA GARDENS HOUSING SCHEME • MASTER PLAN</text>
+  </g>
+
+  <!-- North Arrow Compass -->
+  <g transform="translate(1250, 40)">
+    <circle cx="20" cy="20" r="22" fill="#FAF6EE" stroke="#1F1B16" stroke-width="2"/>
+    <polygon points="20,4 26,20 20,16 14,20" fill="#B5573B"/>
+    <polygon points="20,36 26,20 20,24 14,20" fill="#1F1B16"/>
+    <text x="20" y="0" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">N</text>
+  </g>
+</svg>

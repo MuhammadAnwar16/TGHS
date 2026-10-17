@@ -1,0 +1,83 @@
+<svg width="800" height="1130" viewBox="0 0 800 1130" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="parchmentBg" x1="400" y1="0" x2="400" y2="1130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FCFAF5"/>
+      <stop offset="100%" stop-color="#F2E8D5"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Document Paper Sheet -->
+  <rect width="800" height="1130" fill="url(#parchmentBg)"/>
+  <rect x="30" y="30" width="740" height="1070" fill="none" stroke="#B8892D" stroke-width="2"/>
+  <rect x="36" y="36" width="728" height="1058" fill="none" stroke="#1F1B16" stroke-width="0.75"/>
+
+  <!-- Watermark -->
+  <g opacity="0.06" transform="translate(400, 560)">
+    <circle cx="0" cy="0" r="220" fill="none" stroke="#1F1B16" stroke-width="12"/>
+    <text x="0" y="15" font-family="serif" font-size="52" font-weight="bold" fill="#1F1B16" text-anchor="middle">OFFICIAL SPECIMEN</text>
+  </g>
+
+  <!-- Header Coat of Arms / Emblem -->
+  <g transform="translate(400, 90)">
+    <circle cx="0" cy="0" r="32" fill="#FAF6EE" stroke="#3F5A3C" stroke-width="2.5"/>
+    <!-- Crescent / Star / Heritage Scales motif -->
+    <path d="M-12 -6C-12 10 2 18 16 10C8 16 -8 14 -12 -6Z" fill="#3F5A3C"/>
+    <circle cx="8" cy="-6" r="3" fill="#B8892D"/>
+    <text x="0" y="52" font-family="serif" font-size="14" font-weight="bold" fill="#1F1B16" text-anchor="middle" letter-spacing="2">GOVERNMENT OF THE PUNJAB</text>
+    <text x="0" y="70" font-family="sans-serif" font-size="12" font-weight="bold" fill="#3F5A3C" text-anchor="middle">LOCAL GOVERNMENT &amp; COMMUNITY DEVELOPMENT DEPARTMENT</text>
+    <text x="0" y="88" font-family="sans-serif" font-size="10" fill="#5C5346" text-anchor="middle">TOWN MUNICIPAL ADMINISTRATION / PLANNING DIRECTORATE, TAXILA</text>
+  </g>
+
+  <!-- Reference Line -->
+  <line x1="60" y1="210" x2="740" y2="210" stroke="#B8892D" stroke-width="1.5"/>
+
+  <text x="70" y="235" font-family="monospace" font-size="12" fill="#1F1B16">Ref No: TMA/TX/HS/[TBD-DOCKET-ID]</text>
+  <text x="630" y="235" font-family="monospace" font-size="12" fill="#1F1B16">Dated: [TBD - Date]</text>
+
+  <!-- Subject Title Box -->
+  <rect x="70" y="260" width="660" height="48" rx="3" fill="#FAF1D9" stroke="#B8892D" stroke-width="1"/>
+  <text x="400" y="290" font-family="serif" font-size="15" font-weight="bold" fill="#1F1B16" text-anchor="middle" letter-spacing="1">
+    SUBJECT: NO OBJECTION CERTIFICATE (NOC) FOR SCHEME DEVELOPMENT
+  </text>
+
+  <!-- Body Content -->
+  <g font-family="sans-serif" font-size="12" fill="#2E2922" transform="translate(70, 340)">
+    <text x="0" y="0">To: The Sponsors / Developers</text>
+    <text x="0" y="20" font-weight="bold">TAXILA GARDENS HOUSING SCHEME</text>
+    <text x="0" y="38">Tehsil Taxila, District Rawalpindi, Punjab.</text>
+
+    <text x="0" y="80">1. Reference formal layout plan submission and revenue record scrutiny for the private</text>
+    <text x="0" y="100">housing scheme titled "TAXILA GARDENS HOUSING SCHEME".</text>
+
+    <text x="0" y="140">2. It is hereby placed on record that the preliminary scrutiny of title documents, contour</text>
+    <text x="0" y="160">survey, and town planning standards has been registered under statutory docket review.</text>
+
+    <text x="0" y="200">3. The scheme shall strictly conform to the following statutory benchmarks:</text>
+    <text x="20" y="225">• Minimum 100 ft right-of-way for primary entrance boulevard.</text>
+    <text x="20" y="250">• Minimum 7% of total scheme land reserved exclusively for public open parks.</text>
+    <text x="20" y="275">• Zero encroachment or disturbance to protected Gandhara heritage buffer zones.</text>
+    <text x="20" y="300">• Modern underground utility conduits in compliance with municipal building bylaws.</text>
+
+    <text x="0" y="350">4. This specimen document reflects active regulatory compliance proceedings.</text>
+    <text x="0" y="370">Final gazette notification with formal reference number will be notified upon conclusion.</text>
+  </g>
+
+  <!-- Specimen Stamp -->
+  <g transform="translate(400, 800) rotate(-12)">
+    <rect x="-180" y="-30" width="360" height="60" rx="4" fill="none" stroke="#B5573B" stroke-width="3" stroke-dasharray="8 4"/>
+    <text x="0" y="8" font-family="sans-serif" font-size="20" font-weight="bold" fill="#B5573B" text-anchor="middle" letter-spacing="2">SPECIMEN • REGULATORY SCRUTINY</text>
+  </g>
+
+  <!-- Signatures / Authority Seals -->
+  <g transform="translate(100, 960)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#1F1B16" stroke-width="1"/>
+    <text x="100" y="20" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">Town Officer (Planning)</text>
+    <text x="100" y="35" font-family="sans-serif" font-size="10" fill="#5C5346" text-anchor="middle">Municipal Administration Taxila</text>
+  </g>
+
+  <g transform="translate(500, 960)">
+    <line x1="0" y1="0" x2="200" y2="0" stroke="#1F1B16" stroke-width="1"/>
+    <text x="100" y="20" font-family="sans-serif" font-size="11" font-weight="bold" fill="#1F1B16" text-anchor="middle">Competent Authority / Director</text>
+    <text x="100" y="35" font-family="sans-serif" font-size="10" fill="#5C5346" text-anchor="middle">Urban Development Wing</text>
+  </g>
+</svg>
