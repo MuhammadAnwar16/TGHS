@@ -86,8 +86,8 @@ export default function HomePage() {
           {/* Subtitle */}
           <p className="text-base sm:text-lg text-[#E6DACB] max-w-2xl mx-auto mb-9 leading-relaxed font-normal drop-shadow-[0_2px_10px_rgba(0,0,0,0.8)]">
             {isUrdu
-              ? "ٹیکسلا ہلز اور ہائی ٹیک (HITEC) کے سنگ، HMC روڈ پر قدرتی ماحول اور جدید سہولیات کے سنگ پرسکون رہائش"
-              : "Strategically located near scenic Taxila Hills & HITEC, off HMC Road. Delivered infrastructure with ready plot possession."}
+              ? "HIT اور UET ٹیکسلا جیسے دلکش مقامات کے قریب، ایک اسٹریٹجک محل وقوع۔ بنیادی ڈھانچہ (انفراسٹرکچر) مکمل اور پلاٹس کا قبضہ فوری دستیاب ہے۔"
+              : "Strategically located near scenic HIT/HITEC & UET Taxila. Delivered infrastructure with ready plot possession."}
           </p>
 
           {/* Action CTAs */}

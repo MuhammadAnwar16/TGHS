@@ -66,8 +66,8 @@ export default function LocationPage() {
             </p>
             <p className="text-xs text-[#5C5346] mt-0.5">
               {isUrdu
-                ? "ٹیکسلا، ضلع راولپنڈی، پنجاب"
-                : "Taxila, Rawalpindi District, Punjab"}
+                ? "ٹیکسلا، خانپور، ہری پور"
+                : "Taxila, Khanpur, Haripur"}
             </p>
           </div>
           <div className="p-4 bg-[#FAF6EE] border border-[#D9C3A0] rounded-sm">
@@ -79,7 +79,7 @@ export default function LocationPage() {
               {locationData.schemeCoordinates.lng.toFixed(4)}° E
             </p>
             <p className="text-xs text-[#5C5346] mt-0.5">
-              {isUrdu ? "ٹیکسلا، پنجاب، پاکستان" : "Taxila, Punjab, Pakistan"}
+              {isUrdu ? "ٹیکسلا  " : "Taxila"}
             </p>
           </div>
           <div className="p-4 bg-[#B5573B] border border-[#913E26] rounded-sm flex flex-col justify-center gap-2">

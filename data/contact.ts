@@ -33,8 +33,8 @@ export const contactData: ContactInfo = {
     "Hello Taxila Gardens Sales Team, I am interested in learning more about available plots and booking procedures.",
   whatsappPrefilledMessageUr:
     "السلام علیکم! میں ٹیکسلا گارڈنز ہاؤسنگ سکیم میں دستیاب پلاٹوں اور بکنگ کی تفصیلات جاننا چاہتا ہوں۔",
-  officeAddressEn: "Taxila Gardens Housing Scheme, Near Taxila Hills & HITEC, off HMC Road, Taxila, Rawalpindi District, Punjab",
-  officeAddressUr: "ٹیکسلا گارڈنز ہاؤسنگ سکیم، ٹیکسلا ہلز اور HITEC کے قریب، HMC روڈ، ٹیکسلا، ضلع راولپنڈی، پنجاب",
+  officeAddressEn: "Taxila Gardens Housing Scheme, Near Taxila Hills & HITEC, Khanpur, Haripur",
+  officeAddressUr: " گارڈنز ہاؤسنگ سوسائٹی، ٹیکسلا ہلز اور ایچ آئی ای ٹی سی کے قریب، خانپور، ہری پور",
   isOfficeAddressTbd: false,
   officeHoursEn: "Monday – Saturday: 9:00 AM – 6:00 PM (PKT) | Sunday: By Appointment",
   officeHoursUr: "پیر تا ہفتہ: صبح ۹:۰۰ بجے سے شام ۶:۰۰ بجے تک | اتوار: پیشگی وقت کے ساتھ",
